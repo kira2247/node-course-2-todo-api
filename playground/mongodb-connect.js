@@ -15,6 +15,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
     return console.log('Unable to connect to mongodb server');
   }
   console.log('Connected to mongodb server');
+});
 
   //insertOne
   // db.collection('Todos').insertOne({
